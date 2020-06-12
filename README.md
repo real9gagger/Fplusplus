@@ -37,7 +37,7 @@
 <br/>.zi- 开头的：z-index 属性
 
 示例：  
-&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff ta-center">&lt;/div>
+&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff ta-c">&lt;/div>
 
 即：  
 div {
