@@ -21,7 +21,7 @@
 <br/>.op- 开头的：opacity 属性
 <br/>.pd- 开头的：padding 属性
 <br/>.po- 开头的：left,right,top,bottom 属性，po-l表示left,po-r表示right,po-t表示top,po-b表示bototm
-<br/>.ps- 开头的：posistion 属性
+<br/>.ps- 开头的：position 属性
 <br/>.rt- 开头的：transform 属性中的rotate函数
 <br/>.sb- 开头的：scroll-behavior、overscroll-behavior 属性
 <br/>.ta- 开头的：text-align 属性
