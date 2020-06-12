@@ -36,3 +36,15 @@
 <br/>.ws- 开头的：white-space、word-break 文本换行属性
 <br/>.zi- 开头的：z-index 属性
 
+示例：  
+&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff">&lt;/div>
+
+即：  
+div {
+  width: 100%;  
+  height: 100px;  
+  background-color: red;  
+  border-radius: 20px;  
+  font-size: 20px;  
+  color: #ffffff;  
+}
