@@ -14,7 +14,7 @@
 <br/>.fw- 开头的：font-weight 属性
 <br/>.fx- 开头的：flex 盒子(display:flex)
 <br/>.hi- 开头的：height 属性
-<br/>.hv- 开头的：width 属性
+<br/>.hv- 开头的：hover 伪类
 <br/>.lh- 开头的：line-height 属性
 <br/>.mg- 开头的：margin 属性
 <br/>.of- 开头的：overflow 属性
@@ -37,7 +37,7 @@
 <br/>.zi- 开头的：z-index 属性
 
 示例：  
-&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff">&lt;/div>
+&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff ta-center">&lt;/div>
 
 即：  
 div {
@@ -46,5 +46,6 @@ div {
   background-color: red;  
   border-radius: 20px;  
   font-size: 20px;  
-  color: #ffffff;  
+  color: #ffffff;   
+  text-align:center
 }
