@@ -36,10 +36,13 @@
 <br/>.ws- 开头的：white-space、word-break 文本换行属性
 <br/>.zi- 开头的：z-index 属性
 
-示例：  
-&lt;div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff ta-c">&lt;/div>
+示例一（以px为基础单位）：  
+```html
+<div class="wi-f hi-100 bg-red br-20 fs-20 tc-ff ta-c"></div>
+```
 
-即：  
+即：
+```css
 div {
   width: 100%;  
   height: 100px;  
@@ -47,5 +50,28 @@ div {
   border-radius: 20px;  
   font-size: 20px;  
   color: #ffffff;   
-  text-align:center
+  text-align:center;
 }
+```
+示例二（以rem为基础单位）：  
+```html
+<div class="fx-vc wh-5rem br-rem5 bg-f0 pd-rem5 fs-1rem5 tc-99 mg-t-1rem ta-r"></div>
+```
+
+即：
+```css
+div {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #f0f0f0;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  color: #999;
+  margin-top: 1rem;
+  text-align: right;
+}
+```
