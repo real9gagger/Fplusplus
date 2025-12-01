@@ -1,4 +1,4 @@
-/* 通用CSS，快速布局、快速设计的CSS */
+/* 通用CSS，快速布局，快速设计的CSS */
 *{box-sizing:border-box;}
 html,body{font-size:16px;-webkit-tap-highlight-color:transparent;-webkit-overflow-scrolling:touch;}
 body,ul,ol,li,p,pre,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
@@ -558,7 +558,8 @@ body .bd-0{border:0px solid transparent;}
 body .bd-1{border:1px solid #ccc;}
 body .bd-s{border:1px solid;}
 body .bd-mc{border:1px solid var(--main-color);}
-body .bd-t-1{border-top:1px solid #ccc;}body .bd-b-1{border-bottom:1px solid #ccc;}
+body .bd-t-1{border-top:1px solid #ccc;}
+body .bd-b-1{border-bottom:1px solid #ccc;}
 body .bd-l-1{border-left:1px solid #ccc;}
 body .bd-r-1{border-right:1px solid #ccc;}
 body .bd-t-0{border-top-width:0;}
@@ -1579,6 +1580,7 @@ body .pd-tb-7rem{padding-top:7rem;padding-bottom:7rem;}
 body .pd-tb-8rem{padding-top:8rem;padding-bottom:8rem;}
 body .pd-tb-9rem{padding-top:9rem;padding-bottom:9rem;}
 body .pd-tb-xrem{padding-top:10rem;padding-bottom:10rem;}
+
 
 body .mg-rem1{margin:0.1rem;} /* 0rem1 省略前缀0，下同 */
 body .mg-rem2{margin:0.2rem;}
